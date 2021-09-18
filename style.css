@@ -1,0 +1,120 @@
+ :root {
+     --color: #E55249;
+     --color2: #fff;
+ }
+
+ html {
+     background-color: #229993;
+     filter: hue-rotate(15deg);
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: border-box;
+     width: -webkit-fill-available;
+ }
+
+ h1 {
+     font-family: arial;
+     text-align: center;
+     color: var(--color2);
+ }
+
+ h2 {
+     font-family: arial;
+     font-size: 20px;
+     text-align: center;
+     text-transform: uppercase;
+     color: var(--color2);
+ }
+
+
+ ::placeholder {
+     color: var(--color2);
+     opacity: 0.8;
+ }
+
+ input[type=text] {
+     border-radius: 15px;
+     outline: none;
+     min-height: 52px;
+     text-align: center;
+     font-family: arial;
+     border: solid var(--color2) 1px;
+     background-color: var(--color);
+     color: var(--color2);
+     box-shadow: inset 0px 5px 10px 0px rgb(0 0 0 / 50%);
+ }
+
+ input[type=submit],
+ input[type=button] {
+     font-size: 15px;
+     color: var(--color);
+     display: block;
+     cursor: pointer;
+     background: var(--color2);
+     margin-top: 20px;
+     text-align: center;
+     font-family: arial;
+     border: none;
+     margin: 10px;
+     border-radius: 15px;
+     padding: 10px;
+     text-transform: uppercase;
+ }
+
+ .personen {
+     width: 100%;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     -ms-flex-pack: justify;
+     align-content: flex-start;
+ }
+
+ .person {
+     width: auto;
+     margin: 5px;
+ }
+
+ #super,
+ #error {
+     position: fixed;
+     top: 0px;
+     display: none;
+     z-index: 5;
+     left: 5px;
+     width: 45px;
+     height: 45px;
+     border-radius: 100%;
+ }
+
+ @media (max-width: 400px) {
+
+     input[type=button],
+     input[type=submit] {
+         position: fixed;
+         left: 5px;
+         width: 45px;
+         height: 45px;
+         border-radius: 100%;
+     }
+
+     .hinzufuegen {
+         bottom: 50px
+     }
+
+     .entfernen {
+         bottom: 100px;
+     }
+
+     #submit {
+         bottom: 0px;
+     }
+
+     input[type=text] {
+         width: 90%;
+         margin: 5%;
+     }
+ }
