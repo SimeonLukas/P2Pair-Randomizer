@@ -4,7 +4,7 @@ Ordnet zufällig Personen einander zu und versendet sofort eine Email an jene. E
 ## Demo
 Hier gehts zur [Demo](https://staneks.de/p/1).
 
-Gerne könnt ihr es bei mir ausprobieren und für euch verwenden.
+Lost so viel ihr wollt!
 
 ## Voraussetzungen
 
