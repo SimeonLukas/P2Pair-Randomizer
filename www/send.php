@@ -6,6 +6,6 @@ $headers .= 'From: '.$from."\r\n".
     'X-Mailer: PHP/' . phpversion();	
 $betreff = "Hi Partner " . $_GET['wichtel'];
 $from = "From: P2Pair <simeon@staneks.de>";
-$text = 'Hi ' . $_GET['wichtel']  . ','. "\r\n" . 'du musst in diesem Jahr ' . $_GET['name'] . ' beschenken. 🎁' ;
+$text = 'Hi ' . $_GET['wichtel']  . ','. "\r\n" . 'hast in diesem Jahr ' . $_GET['name'] . ' gezogen.' ;
 mail($_GET['mail'], $betreff, $text, $from, $headers);
 ?> 

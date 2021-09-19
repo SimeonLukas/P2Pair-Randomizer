@@ -93,7 +93,7 @@ $(".hinzufuegen").click(function () {
     // Reguliere Menge
     if (anzahl != 41) {
         $(".personen").last().append("<div class='person'><h2> Person " + anzahl +
-            "</h2><input type='text' class='name' name='name[]' placeholder='Name' required><br><br><input type='text' class='mail' name='mail[]' placeholder='Mail' required><br><br>"
+            "</h2><input type='text' class='name' name='name[]' placeholder='Name'><br><br><input type='text' class='mail' name='mail[]' placeholder='Mail'><br><br>"
         );
         window.scrollTo(0, document.body.scrollHeight);
     } else {

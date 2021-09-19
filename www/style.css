@@ -78,6 +78,10 @@
      margin: 5px;
  }
 
+ .entfernen {
+     display: none;
+ }
+
  #super,
  #error {
      position: fixed;
