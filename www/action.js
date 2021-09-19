@@ -60,6 +60,7 @@ function mailsenden() {
                 name: name,
                 mail: mail
             },
+            // Adresse deines Servers hinzufügen
             url: "/zu/deinem/server/send.php",
             success: function (success) {},
             error: function (error) {},
