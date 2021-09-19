@@ -60,7 +60,7 @@ function mailsenden() {
                 name: name,
                 mail: mail
             },
-            url: "https://staneks.de/apps/wichteln/send.php",
+            url: "/zu/deinem/server/send.php",
             success: function (success) {},
             error: function (error) {},
             timeout: 10000
