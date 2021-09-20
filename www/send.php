@@ -5,7 +5,7 @@ $headers .= 'From: '.$from."\r\n".
     'Reply-To: '.$from."\r\n" .
     'X-Mailer: PHP/' . phpversion();	
 $betreff = "Hi Partner " . $_GET['wichtel'];
-$from = "From: P2Pair <simeon@staneks.de>";
+$from = "From: P2Pair <p2pair@mail.de>";
 $text = 'Hi ' . $_GET['wichtel']  . ','. "\r\n" . 'hast in diesem Jahr ' . $_GET['name'] . ' gezogen.' ;
 mail($_GET['mail'], $betreff, $text, $from, $headers);
 ?> 
