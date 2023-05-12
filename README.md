@@ -7,3 +7,5 @@ Lost so viel ihr wollt!
 ## Voraussetzungen
  1. JQuery
  2. PHP
+
+[© Simeon Stanek](https://staneks.de)
